@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app" ng-controller="mainController">
+<head>
+    <meta charset="UTF-8">
+    <title>APP</title>
+    <base href="/">
+    <link rel="stylesheet" href="assets/init.css">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- bower:css -->
+    <!-- endbower -->
+    
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+    <header class="main-header" ng-include="'html/header.html'"></header>
+    <div ui-view class="main-container"></div>
+    <footer class="main-footer" ng-include="'html/footer.html'"></footer>
+
+    <!-- bower:js -->
+    <!-- endbower -->
+    
+    <script src="index.js"></script>
+    <!-- inject:js -->
+    <!-- endinject -->
+</body>
+</html>
